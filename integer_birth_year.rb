@@ -6,8 +6,8 @@
 # Key output:
 #   "Wow, you were born in 1940. You're old!"
 
-p "How old are you?"
+puts "How old are you?"
 age = gets.to_i
 current_year = Time.new.year
 year = current_year - age
-p "Wow, you were born in #{year}. You’re old!"
+puts "Wow, you were born in #{year}. You’re old!"
